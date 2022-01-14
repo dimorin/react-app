@@ -1,3 +1,31 @@
+# 생활코딩 React 강좌 따라하기
+[https://www.youtube.com/playlist?list=PLuHgQVnccGMCRv6f8H9K5Xwsdyg4sFSdi](https://www.youtube.com/playlist?list=PLuHgQVnccGMCRv6f8H9K5Xwsdyg4sFSdi);
+
+## 실행하는 방법
+```bash
+git clone https://github.com/dimorin/react-app.git .
+npm i
+npm start
+```
+
+## npm을 이용해서 creat react app 설치하는 방법
+```bash
+npm install -g create-react-app
+create-react-app -V
+mkdir react-app
+cd react-app
+create-react-app .
+npm start
+```
+
+## npx 로 설치하는 방법 (공식문서)
+### npm 과 npx 의 차이
+npm 이 프로그램을 설치하는 것이 프로그래이라면,<br>
+npx는 임시로 프로그램을 설치해서 딱 한 번 실행시키고 지운다.<br>
+npx의 장점은 공간을 절약해주고 항상 최신 버전을 유지한다.
+
+<hr>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

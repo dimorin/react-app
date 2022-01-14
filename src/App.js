@@ -130,10 +130,7 @@ class App extends Component{
             }            
           }.bind(this)}
         ></Control>
-        {this.getContent()}
-        <hr></hr>
-        <hr></hr>
-        출처 :  https://youtube.com/playlist?list=PLuHgQVnccGMCRv6f8H9K5Xwsdyg4sFSdi
+        {this.getContent()} 
       </div>
     );
   }
